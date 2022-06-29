@@ -1,7 +1,7 @@
 # Wordle
-Code for Wordle
-
 Code for Wordle using Python
+
+```
 
 import random
 from words import words
@@ -58,3 +58,5 @@ def wordle():
 		print(f"You won! The word is {word}.")
 
 wordle()
+
+```
