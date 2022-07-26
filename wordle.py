@@ -13,7 +13,7 @@ def removecommon(word1,word2):
 	word3=word1
 	for i in range(0,5):
 		for j in range(0,5):
-			if word1[i] in word2[j]:
+			if word1[i] == word2[j]:
 				word3 = word3[0:i] + '-' + word3[i+1:5]
 				word2 = word2[0:j] + '-' + word2[j+1:5]
 	return(word3)
